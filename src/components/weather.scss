@@ -1,0 +1,56 @@
+.wrapper {
+    width: 100%;
+}
+
+.weather {
+    background-color:rgba(0,0,0,.3);
+    margin: 50px auto 0;
+    height: 700px;
+    width: 395px;
+    background-image: url('../images/bg-img.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    &__box {
+        padding: 0 20px;
+    }
+    &__input {
+        display: block;
+        width: 100%;
+        padding: 15px;
+        appearance: none;
+        background: none;
+        border: none;
+        outline: none;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 0px 0px 16px 16px;
+        margin-top: -25px;
+        box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+        color: #313131;
+        font-size: 20px;
+    }
+    &__content {
+        color: #FFF;
+        text-align: center;
+    }
+    &__title {
+        margin-top: 90px;
+        font-size: 50px;
+    }
+    &__time {
+        font-size: 21px;
+    }
+    &__temprature {
+        font-size: 80px;
+        font-weight: 900;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 40px;
+    }
+}
+
+.cold {
+    background-image: url('../images/bg-img2.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    // background: rgba(0,0,0,.5);
+}
